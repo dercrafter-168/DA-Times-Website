@@ -1,0 +1,23 @@
+# Erlaube allen Suchmaschinen, die Seite zu crawlen
+User-agent: *
+
+
+# Blockiere alle KI-Bots (GPTBot, AnthropicAI, etc.)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: AnthropicAI
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Füge weitere bekannte KI-Bots hinzu
+User-agent: OpenAI
+Disallow: /
+
+User-agent: AI-Bot
+Disallow: /
+
+# Sitemap hinzufügen
+Sitemap: https://DA-Times.dercrafter.de/CHANGE-ME.xml
