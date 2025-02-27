@@ -59,17 +59,49 @@
     <!--Stylesheets-->
     <link rel="stylesheet" href="./data/css/min-css.css">
     <link rel="stylesheet" href="./data/css/index-site.css">
+    <link rel="stylesheet" href="./data/css/navbar.css">
+
     <!--JS-->
+    <script src="./data/js/navbar.js"></script>
   </head>
 
   <body>
-    <h1>DA Times Website</h1>
-    <p>This is a test commit by WebStorms</p>
 
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div class="header-content"><h1>DA Times | Home</h1></div>
+    </header>
+
+    <nav>
+      <div class="navbar-content">
+        <div class="navbar-item-row">
+          <div class="navbar-item-1"><button id="navbar-item-1">Home</button></div>
+          <div class="navbar-item-2"><a href="#">Aktuelle Ausgabe</a></div>
+          <div class="navbar-item-3">
+
+            <div class="dropdown">
+              <button class="dropbtn">Archiv - Ausgaben</button>
+              <div class="dropdown-content">
+                <a href="#">2025</a>
+                <a href="#">2024</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="navbar-item-4"><a href="#">Kontakt</a></div>
+          <div class="navbar-item-5"><a href="#">Über uns</a></div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <p>This is a test commit by WebStorms</p>
+    </main>
+
+    <footer>
+      <div class="footer-content"><p>(c) 2024-2025 DA-Times a dercrafter Networks Media Brand</p></div>
+    </footer>
+
+
   </body>
 
 </html>
