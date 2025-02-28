@@ -63,6 +63,7 @@
 
     <!--JS-->
     <script src="./data/js/navbar.js"></script>
+    <script src="./data/js/default.js"></script>
   </head>
 
   <body>
@@ -74,21 +75,19 @@
     <nav>
       <div class="navbar-content">
         <div class="navbar-item-row">
-          <div class="navbar-item-1"><button id="navbar-item-1">Home</button></div>
-          <div class="navbar-item-2"><a href="#">Aktuelle Ausgabe</a></div>
-          <div class="navbar-item-3">
-
+          <div class="navbar-item"><button id="navbar-item-1">Home</button></div>
+          <div class="navbar-item"><button id="navbar-item-2">Aktuelle Ausgabe</button></div>
+          <div class="navbar-item">
             <div class="dropdown">
               <button class="dropbtn">Archiv - Ausgaben</button>
               <div class="dropdown-content">
-                <a href="#">2025</a>
-                <a href="#">2024</a>
+                <div class="navbar-item-drp"><button id="navbar-item-drp-1">2025</button></div>
+                <div class="navbar-item-drp"><button id="navbar-item-drp-2">2024</button></div>
               </div>
             </div>
-
           </div>
-          <div class="navbar-item-4"><a href="#">Kontakt</a></div>
-          <div class="navbar-item-5"><a href="#">Über uns</a></div>
+          <div class="navbar-item"><button id="navbar-item-3">Über uns</button></div>
+          <div class="navbar-item"><button id="navbar-item-4">Kontakt</button></div>
         </div>
       </div>
     </nav>
