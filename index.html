@@ -59,17 +59,50 @@
     <!--Stylesheets-->
     <link rel="stylesheet" href="./data/css/min-css.css">
     <link rel="stylesheet" href="./data/css/index-site.css">
+    <link rel="stylesheet" href="./data/css/navbar.css">
+
     <!--JS-->
+    <script src="./data/js/navbar.js"></script>
+    <script src="./data/js/default.js"></script>
   </head>
 
   <body>
-    <h1>DA Times Website</h1>
-    <p>This is a test commit by WebStorms</p>
 
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div class="header-content"><h1>DA Times | Home</h1></div>
+    </header>
+
+    <nav>
+      <div class="navbar-content">
+        <div class="navbar-item-row">
+          <div class="navbar-item"><button id="navbar-item-1">Home</button></div>
+          <div class="navbar-item"><button id="navbar-item-2">Aktuelle Ausgabe</button></div>
+          <div class="navbar-item">
+            <div class="dropdown">
+              <button class="dropbtn">Archiv - Ausgaben</button>
+              <div class="dropdown-content">
+                <div class="navbar-item-drp"><button id="navbar-item-drp-2">2026</button></div>
+                <div class="navbar-item-drp"><button id="navbar-item-drp-1">2025</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-item"><button id="navbar-item-3">Über uns</button></div>
+          <div class="navbar-item"><button id="navbar-item-4">Kontakt</button></div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main-content">
+        <h2>Aktuelles:</h2>
+        <p>
+          Das ist ein Test xDA
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content"><p>(c) 2024-2025 DA-Times a dercrafter-Networks-Media Brand</p></div>
+    </footer>
   </body>
-
 </html>
