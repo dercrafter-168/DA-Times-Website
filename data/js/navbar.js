@@ -1,36 +1,54 @@
 console.log("[DCN-System] navbar.js is loading");
 document.addEventListener('DOMContentLoaded', function() {
 
-    const nav_button_1 = document.getElementById('navbar-item-1');
-    const nav_button_2 = document.getElementById('navbar-item-2');
-    const nav_button_3 = document.getElementById('navbar-item-3');
-    const nav_button_4 = document.getElementById('navbar-item-4');
-    const drp_nav_button_1 = document.getElementById('navbar-item-drp-1');
-    const drp_nav_button_2 = document.getElementById('navbar-item-drp-2');
+    let tmp;
 
-    nav_button_1.addEventListener('click', function() {
-        window.location.replace("./index.html");
-        console.log("Button 1 clicked & user redirected to index.html");
+    document.getElementById('navbar-item-1').addEventListener('click', function() {
+        const url = "./index.html";
+        const log = "Button 1 clicked & user redirected to ";
+        tmp = log.concat(url);
+        console.log(tmp);
+        window.location.replace(url);
     });
 
-    nav_button_2.addEventListener('click', function() {
-        window.location.replace("https://beispiel.de");
+    document.getElementById('navbar-item-2').addEventListener('click', function() {
+        const url = "https://beispiel.de";
+        const log = "Button 2 clicked & user redirected to ";
+        tmp = log.concat(url);
+        console.log(tmp);
+        window.location.replace(url);
     });
 
-    nav_button_3.addEventListener('click', function() {
-        window.location.replace("https://beispiel.de");
+    document.getElementById('navbar-item-3').addEventListener('click', function() {
+        const url = "https://beispiel.de";
+        const log = "Button 3 clicked & user redirected to ";
+        tmp = log.concat(url);
+        console.log(tmp);
+        window.location.replace(url);
     });
 
-    nav_button_4.addEventListener('click', function() {
-        window.location.replace("https://beispiel.de");
+    document.getElementById('navbar-item-4').addEventListener('click', function() {
+        const url = "https://beispiel.de";
+        const log = "Button 4 clicked & user redirected to ";
+        tmp = log.concat(url);
+        console.log(tmp);
+        window.location.replace(url);
     });
 
-    drp_nav_button_1.addEventListener('click', function() {
-        window.location.replace("https://beispiel.de");
+    document.getElementById('navbar-item-drp-1').addEventListener('click', function() {
+        const url = "https://beispiel.de";
+        const log = "Button drp-1 clicked & user redirected to ";
+        tmp = log.concat(url);
+        console.log(tmp);
+        window.location.replace(url);
     });
 
-    drp_nav_button_2.addEventListener('click', function() {
-        window.location.replace("https://beispiel.de");
+    document.getElementById('navbar-item-drp-2').addEventListener('click', function() {
+        const url = "https://beispiel.de";
+        const log = "Button drp-2 clicked & user redirected to ";
+        tmp = log.concat(url);
+        console.log(tmp);
+        window.location.replace(url);
     });
 
 });
