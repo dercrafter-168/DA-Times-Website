@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('navbar-item-2').addEventListener('click', function() {
-        const url = "https://beispiel.de";
+        const url = "./current-edition.html";
         const log = "Button 2 clicked & user redirected to ";
         tmp = log.concat(url);
         console.log(tmp);
